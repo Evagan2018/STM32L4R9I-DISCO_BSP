@@ -39,7 +39,7 @@ jobs:
         uses: ARM-software/cmsis-actions/armlm@v1
 
       - name: Checkout current repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: ./BSP
 
